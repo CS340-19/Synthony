@@ -1,5 +1,5 @@
 # Synthony
-###### A synthesizer for beginners.
+#### A synthesizer for beginners.
 
 ## Introduction
 Synthony will be a digital synthesizer instrument designed for beginners in sound design. How can someone design sound, you might ask? Sound is simply a collection of waves.  Notes have waves that vibrate with frequency (low or high note), amplitude (volume), and shape (how it sounds).  If any two instruments can play the same note then they will harmonize together.  However, many common instruments such as the piano or guitar have a limited number of notes they can play.  This is where synthesizers come in to play.
