@@ -1,5 +1,5 @@
 ## **Status Report** <br />
-<br />
+https://github.com/CS340-19/lectures/blob/master/project_status.pdf <br />
 ## **Introduction** <br />
 <br />
 ## **Customer Value** <br />
