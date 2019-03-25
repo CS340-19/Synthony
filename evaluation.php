@@ -7,7 +7,7 @@
 
 <?php
 session_start();
-$mysqli = new mysqli("localhost", "cs377", "cs377_s18", "courseeval");
+$mysqli = new mysqli("localhost", "cs340", "cs340_s19", "courseeval");
 if ($mysqli->connect_errno) {
 	echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 	echo "Please try again.";
