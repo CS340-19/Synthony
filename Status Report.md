@@ -1,14 +1,14 @@
 ## **Status Report** <br />
 <br />
-##**Introduction** <br />
+## **Introduction** <br />
 <br />
-**Customer Value** <br />
+## **Customer Value** <br />
 <br />
-**Technology** <br />
+## **Technology** <br />
 <br />
-**Team** <br />
+## **Team** <br />
 <br />
-**Project Management** <br />
+## **Project Management** <br />
 <br />
-**Reflection** <br />
+## **Reflection**
 <br />
