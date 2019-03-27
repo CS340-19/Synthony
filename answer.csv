@@ -1,0 +1,180 @@
+﻿answerid,response,questionid
+1,First,1
+2,Second,1
+3,Third,1
+4,Fourth+,1
+5,Male,2
+6,Female,2
+7,1-5%,3
+8,6-10%,3
+9,11-15%,3
+10,16-20%,3
+11,21-25%,3
+12,26-30%,3
+13,31-40%,3
+14,41-50%,3
+15,51-60%,3
+16,61-80%,3
+17,80-99%,3
+18,Physics,4
+19,Material Engineering,4
+20,Computer Engineering,4
+21,Chemical Engineering,4
+22,Biology,4
+23,Chemistry,4
+24,Industrial Engineering,4
+25,Computer Science,4
+26,Business,4
+27,Mathematics,4
+28,Business Administration,4
+29,Electrical Engineering,4
+30,Economics,4
+31,Mathematics,4
+32,Undeclared,4
+33,A,5
+34,A-,5
+35,B+,5
+36,B,5
+37,B-,5
+38,C+,5
+39,C,5
+40,C-,5
+41,D+,5
+42,D,5
+43,D-,5
+44,F,5
+45,Pre-Prof Requirement,6
+46,Prerequisite,6
+47,College Requirement Major,6
+48,Interested,6
+49,1,7
+50,2,7
+51,3,7
+52,4,7
+53,5,7
+54,6,7
+55,7,7
+56,8,7
+57,9,7
+58,10,7
+59,1,8
+60,2,8
+61,3,8
+62,4,8
+63,5,8
+64,6,8
+65,7,8
+66,8,8
+67,9,8
+68,10,8
+69,1,9
+70,2,9
+71,3,9
+72,4,9
+73,5,9
+74,6,9
+75,7,9
+76,8,9
+77,9,9
+78,10,9
+79,1,10
+80,2,10
+81,3,10
+82,4,10
+83,5,10
+84,6,10
+85,7,10
+86,8,10
+87,9,10
+88,10,10
+89,1,11
+90,2,11
+91,3,11
+92,4,11
+93,5,11
+94,6,11
+95,7,11
+96,8,11
+97,9,11
+98,10,11
+99,1,12
+100,2,12
+101,3,12
+102,4,12
+103,5,12
+104,6,12
+105,7,12
+106,8,12
+107,9,12
+108,10,12
+109,Strongly Disagree,13
+110,Disagree,13
+111,Neutral,13
+112,Agree,13
+113,Strongly Agree,13
+114,Strongly Disagree,14
+115,Disagree,14
+116,Neutral,14
+117,Agree,14
+118,Strongly Agree,14
+119,Easy A,15
+120,"Extremely knowledgeable and clear presentation, willing to help",15
+121,Suppose to be the easiest professor in theory,15
+122,Nothing good to say,15
+123,He's nice enough,15
+124,He knows the material very well,15
+125,He's good at presenting the use cases,15
+126,Best teacher I've had,15
+127,He holds a lot of office hours and is very helpful during them,15
+128,"Very engaged, loved the active learning",15
+129,Likes to make nerdy jokes,15
+130,He provides lots of examples in class.,15
+131,I love his accent! ,15
+132,He is amazing!!!,15
+133,He has neat writing.,15
+134,He's very knowledge about the subject,15
+135,Nothing good to say about her,15
+136,"He's nice and friendly, fun in class",15
+137,He presents well,15
+138,"Lectures are dry, boring, and unhlepful",16
+139,He emphasizes random things and I learned nothing,16
+140,He expects a lot from her students,16
+141,I would take it with Plank for an easier grade,16
+142,Nothing to complain about,16
+143,Expects a lot of his students,16
+144,Terrible at explaining algorithm analysis,16
+145,Lectures can be boring,16
+146,His tests are very hard,16
+147,A lot of work,16
+148,Rushes through the topics,16
+149,I didn't understand any of the algorithms,16
+150,Assignments were too open-ended,16
+151,Hot girls take the class // yes this is real,17
+152,Easy class -- didn't need to go to class,17
+153,Covers modern databases,17
+154,Material is so relevant,17
+155,"Learn to do more with computer science",17
+156,Great notes,17
+157,Course notes are comprehensive and great,17
+158,Useful course for my major,17
+159,Very useful content,17
+160,Algorithms are relevant to my research,17
+161,Terrible class,18
+162,I hate calculus based math,18
+163,Covers a lot of topics,18
+164,Wish more Python was covered,18
+165,A lot of work ,18
+166,Required course - so didn't expect much,18
+167,Exams were worth too much,18
+168,"Don't know why this class is required for CS majors, it's useless",18
+169,"Coding exercises were pointless, material was haphazard",18
+170,Wish there was more breadth,18
+171,Why is there so much insane algebra? Yuck,18
+172,Nothing to complain about!,18
+173,Covers too much material,18
+174,Too many class presentations and too many algorithms,18
+175,Too much math!,18
+176,Too much programming involved with implementing the different algorithms,18
+177,Not relevant to anything I'm doing,18
+178,0%,3
+179,Graduate,1
