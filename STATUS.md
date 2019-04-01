@@ -9,7 +9,7 @@ After discussing our options with Dr. Mockus, our team understood the options we
 
 We started with reanalyzing our skillset.  Luke, Todd, and Dave all have experience in HTML.  Luke, Todd, and Brandon have PHP programming experience, and Luke has worked with mySQL databases before.  Our team decided to create a new project, still under the Synthony brand; our new project captures teacher evaluations based on a student’s classes and provides the feedback to the teacher -- instantly.  The rest of this document will describe the new program and its place in the market. <br />
 
-###Motivation for change
+####Motivation for change
 The concepts about how to build our own synthesizer were too complicated for our team and was outside our scope of understanding. Rather than struggling with trying to build something our team lacked comprehension of, our team changed our idea to something a little more feasible that utilized query languages through a web server. Our group was more familiar with this concept as a whole and our team had a unanimous agreement to change our project idea accordingly.<br />
 
 ###**Customer value** <br />
