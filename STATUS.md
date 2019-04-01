@@ -63,11 +63,11 @@ Although the project is rushed to be done by the final presentation date, the pr
 
 4/24 -> Final Presentation Day. <br />
 ### **Reflection** <br />
-### What went well?<br />
+#### What went well?<br />
 We got most of this new project done ahead of schedule, even after switching our project idea half-way through the semester. We managed to find time outside of all our coursework to work on this project little by little. The transition went smoothly as we got rid of the old files for the synthesizer and replaced them with our new files for our version of Course Evaluations. <br />
  
-### What didn’t go well?<br />
+#### What didn’t go well?<br />
 Obviously our first project idea didn’t go as planned because of the knowledge required to work with the iPlug2 framework. We were truly in over our heads to work on something that we didn’t have much knowledge of to begin with. <br />
 
-### What would you change for the next iterations?<br />
+#### What would you change for the next iterations?<br />
 Next time, we should investigate the frameworks we choose to use for our project. The main issue why we had to change to a different project was the lack of documentation that iPlug2 did. This created confusion amongst the team, mixed with the lack of knowledge we have amount wave synthesizers. Choosing the right framework and a feasible project idea will help develop a successful product that can be used outside of our team members. <br />
