@@ -21,24 +21,28 @@ Our course evaluation software is also beneficial in the fact that it is open so
 
 ### **Technology** <br />
 
-The website runs on a MySQL server to store all of the information. For the most part, the tables in the database are either keyed on a primary ID or are ‘relational’ tables, meaning their sole job is to link two entries in two other tables. Our database has ten tables: Instructor, Teaches, Class, Student, Takes, Evaluation, Question, Class_question, Answer, and Eval_answer. Student evaluations are designed to be anonymous, thus we only store the student’s ID. Students are able to submit evaluations only for the classes they have taken, and only for the classes that they have not yet submitted an evaluation. We use a couple of SQL queries to make sure that the evaluations are shown correctly. Questions are mapped to a class via the Class_question table so that we know which questions make up an evaluation for a certain class. Similarly, answers are mapped to an evaluation via Eval_answer. Faculty can select from the classes they teach to view statistics, which are pulled from the database with SQL queries and shown in a simple manner. The MySQL server and the web server run on the same machine so the website will connect to the SQL server via localhost. The website itself is a series of PHP pages. They request information from the database and display it accordingly. Concurrency control was implemented to ensure that there isn’t any conflicting information or evaluations. Transaction management was used for the submitting of evaluations to ensure that incomplete evaluations could not be submitted. The PHP files use sessions to store and send information between pages. <br />
+The website runs on a MySQL server to store all of the information. For the most part, the tables in the database are either keyed on a primary ID or are ‘relational’ tables, meaning their sole job is to link two entries in two other tables. Our database has ten tables: Instructor, Teaches, Class, Student, Takes, Evaluation, Question, Class_question, Answer, and Eval_answer. Student evaluations are designed to be anonymous, thus we only store the student’s ID. Students are able to submit evaluations only for the classes they have taken, and only for the classes that they have not yet submitted an evaluation. <br />
+
+We use a couple of SQL queries to make sure that the evaluations are shown correctly. Questions are mapped to a class via the Class_question table so that we know which questions make up an evaluation for a certain class. Similarly, answers are mapped to an evaluation via Eval_answer. Faculty can select from the classes they teach to view statistics, which are pulled from the database with SQL queries and shown in a simple manner. The MySQL server and the web server run on the same machine so the website will connect to the SQL server via localhost.<br />
+
+The website itself is a series of PHP pages. They request information from the database and display it accordingly. Concurrency control was implemented to ensure that there isn’t any conflicting information or evaluations. Transaction management was used for the submitting of evaluations to ensure that incomplete evaluations could not be submitted. The PHP files use sessions to store and send information between pages. <br />
 
 ### **Team** <br />
 
-### Dave Kennard 
+#### Dave Kennard 
 Dave did configuration on the security for the webserver, protecting against potential SQL injection attacks. Dave also did the basics of setting up the creation and deletion of tables to be utilized within the project. Going forward, Dave will work on graphing various attributes based on information given within the evaluation. These will include information about students who submitted their evaluation, including their undergraduate level, their expected grade in the class, and compare where they felt more positive about some aspects versus when they felt more negative. <br />
 
-### Luke Parker
+#### Luke Parker
 Luke established himself as a leader through the first half of the project.  From finding the source code for iPlug 2 to helping the team come to terms with changing the project idea, he has been the most productive team member.  He developed the PHP backend with Todd, and designed the full mySQL database.  Additionally, he set up the LAMP stack on the Google Server. <br />
 
 Going forward, Luke will be working on the data scraper with Brandon. <br />
 
-### Todd Allen
+#### Todd Allen
 For the first half of the project, Todd setup the repository on GitHub and dug through the code with the rest of the team.  Todd developed the PHP with Luke, including setting up the Google Server the code lives on. Additionally, he created filler data for Demo Day, as the data scraper is not yet set up.   <br />
 
 For the next half of the project, Todd will be developing all of the styling for the website.  Additionally, he will be working on the data scraper. <br />
 
-### Brandon Kidd
+#### Brandon Kidd
 During the iPlug2 part of our project, Brandon was developing tutorials write-ups for the wave synthesizer. These write-ups would help the user find what they are looking for or show them how to do it faster. Alongside tutorial write-ups, Brandon designed a basic GUI on paper that the wave synthesizer would use to make it easier on the user to accomplish their goal. Moving forward with the evaluation system, Brandon helped design and develop the database that everything was connected correctly. Without this step, the system would have vulnerabilities that would risk confidentiality. <br />
 
 As the project continues, Brandon will be working on the data scraper with Luke, and the graphing of evaluation data with Dave. <br />
