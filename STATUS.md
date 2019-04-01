@@ -3,11 +3,11 @@ Project Synthony started as a wavetable synthesizer program for newcomers in the
 
 After a full month into development, our team realized that our knowledge of the framework was not going to be sufficient enough to create our own synthesizer. The iPlug2 code was poorly commented and had many issues that were actively being fixed, and our progress and development of the project was slow and cumbersome.  Since the iPlug2 framework was based on the old, C based iPlug1 framework, a lot of code was just ugly and not optimized or formatted well.  <br />
 
-	The time our team spent on Synthony, and the iPlug2 framework, was not a complete waste.  Reading the framework exposed everyone to real-world, open source code.  The skills we gained from analyzing the iPlug2 code will be implemented in the OSS project for this class; for a few of the team members, the iPlug2 framework will be their OSS project.  The issues we had -- poor documentation and program flow understanding -- can be fixed by one of our team members.  <br />
+The time our team spent on Synthony, and the iPlug2 framework, was not a complete waste.  Reading the framework exposed everyone to real-world, open source code.  The skills we gained from analyzing the iPlug2 code will be implemented in the OSS project for this class; for a few of the team members, the iPlug2 framework will be their OSS project.  The issues we had -- poor documentation and program flow understanding -- can be fixed by one of our team members.  <br />
 
 After discussing our options with Dr. Mockus, our team understood the options we had.  We could continue to develop Synthony, but perhaps develop a small section of the program.  At first, the team tried this option; but after a week, we realized that our understanding of the code was simply not sufficient.  Falling back on plan B, the team changed topics to something that could be accomplished within the remaining time of the semester. <br />
 
-	We started with reanalyzing our skillset.  Luke, Todd, and Dave all have experience in HTML.  Luke, Todd, and Brandon have PHP programming experience, and Luke has worked with mySQL databases before.  Our team decided to create a new project, still under the Synthony brand; our new project captures teacher evaluations based on a student’s classes and provides the feedback to the teacher -- instantly.  The rest of this document will describe the new program and its place in the market. <br />
+We started with reanalyzing our skillset.  Luke, Todd, and Dave all have experience in HTML.  Luke, Todd, and Brandon have PHP programming experience, and Luke has worked with mySQL databases before.  Our team decided to create a new project, still under the Synthony brand; our new project captures teacher evaluations based on a student’s classes and provides the feedback to the teacher -- instantly.  The rest of this document will describe the new program and its place in the market. <br />
 
 ####Motivation for change
 The concepts about how to build our own synthesizer were too complicated for our team and was outside our scope of understanding. Rather than struggling with trying to build something our team lacked comprehension of, our team changed our idea to something a little more feasible that utilized query languages through a web server. Our group was more familiar with this concept as a whole and our team had a unanimous agreement to change our project idea accordingly.<br />
@@ -49,9 +49,13 @@ Although the project is rushed to be done by the final presentation date, the pr
 3/04 -> Discuss changing of plans for the semester project. <br />
 
 3/06 -> Talked with Dr. Mockus about our plans and decided to change our project to a teacher evaluation system.<br />
+
 3/08 - 3/25 -> Create the database design and implement. Create the web server to run the evaluation system. Create placeholder data to test to ensure correctness of database. Begin implementing security measures for confidentiality. Working towards demo day milestone. <br />
+
 3/29 -> Demo Day  <br />
+
 4/01 - 4/22 -> Implement ways to graph results from evaluation system (this will help professors understand mass amounts of data), create a data scraper (from canvas/myUTK), design the website to be user friendly. Working towards final milestone. <br />
+
 4/24 -> Final Presentation Day. <br />
 ### **Reflection** <br />
 ####What went well?<br />
