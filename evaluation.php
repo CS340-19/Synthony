@@ -19,7 +19,7 @@ if ($mysqli->connect_errno) {
 
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 		<div class="form-group">
-			<h2 for="enterStudentID">Enter your student ID first.</h2>
+			<h2 for="enterStudentID">Enter your student ID first!!!</h2>
 			<input type="text" class="form-control" id="studentID" name="studentID" aria-describedy="studentID" placeholder="Enter Student ID">
 			<small id="studentIDHelp" class="form-text text-muted">You must be a currently enrolled in classes.</small>
 		</div>
