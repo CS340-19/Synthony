@@ -1,5 +1,30 @@
 <html>
-<head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+
+	var data = google.visualization.arrayToDataTable([
+		['Faculty Stats SummaryTask', 'Hours per Day'],
+		['Work',     11],
+		['Eat',      2],
+		['Commute',  2],
+		['Watch TV', 2],
+		['Sleep',    7]
+	]);
+
+	var options = {
+	title: 'Faculty Stats Summary'
+	};
+
+	var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+	chart.draw(data, options);
+}
+</script>
+	<head>
 	<title>Evaluation Start</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
@@ -84,7 +109,7 @@ if ($questions){
 
                     echo '<br>';
                     break;
-
+	//selecting answers 1 to 10
                 case "110":
                     echo '<h2>' . $row["text"] . '</h2>';
                     echo '<h3>' . $totcount . ' responses total. Breakdown: </h3>';
@@ -110,7 +135,7 @@ if ($questions){
 
                     echo '<br>';
                     break;
-
+		//agree/disagree
                 case "AD":
                     echo '<h2>' . $row["text"] . '</h2>';
                     echo '<h3>' . $totcount . ' responses total. Breakdown: </h3>';
@@ -128,7 +153,7 @@ if ($questions){
 
                     echo '<br>';
                     break;
-
+		//freetext answers
                 case "FT":
                     echo '<h2>' . $row["text"] . '</h2>';
                     echo '<h3>' . $totcount . ' responses total. Responses: </h3>';
@@ -151,6 +176,9 @@ if ($questions){
 <a href="facultyreport.php"><button type="button" class="btn btn-primary">Back</button></a>
 <br><br><br>
 
+    <body>
+	  <div id="piechart" style="width: 900px; height: 500px;"></div>
+    </body>
 </body>
 </div>
 
