@@ -6,7 +6,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
-	var test = <?php echo $count?>;
+	// var test = <?php echo $count?>;
 
 	var data = google.visualization.arrayToDataTable([
 		['Faculty Stats SummaryTask', 'Hours per Day'],
