@@ -6,9 +6,11 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
+	var test = <?php echo $count?>;
+
 	var data = google.visualization.arrayToDataTable([
 		['Faculty Stats SummaryTask', 'Hours per Day'],
-		['Work',     11],
+		['Work',     test],
 		['Eat',      2],
 		['Commute',  2],
 		['Watch TV', 2],
@@ -95,17 +97,21 @@ if ($questions){
                     echo '<h3>' . $totcount . ' responses total. Breakdown: </h3>';
 
                     $options = explode(',', $row["options"]);
-					//breakdown by each option
-					foreach ($options as $option){
-						echo $option . ': ';
-						$count = 0;
-						foreach ($response_array as $response){
-							if ($option == $response) {$count++;}
-						}
-						echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
-						echo '<br>';
+										//breakdown by each option
+										foreach ($options as $option){
+											echo $option . ': ';
+											$count = 0;
+											foreach ($response_array as $response){
+												if ($option == $response) {$count++;}
+											}
+											echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
+											echo '<br>';
 
-					}
+											echo '<script type="text/javascript">',
+												     `'drawChart();',
+												     '</script>`;
+
+											}
 
                     echo '<br>';
                     break;
@@ -120,7 +126,7 @@ if ($questions){
                         echo $i . ': ';
                         $count=0;
                         foreach ($response_array as $response){
-							if ($i == $response) {
+														if ($i == $response) {
                                 $count++;
                                 array_push($median_array, $i);
                             }
