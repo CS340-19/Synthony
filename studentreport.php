@@ -2,6 +2,7 @@
 <head>
     <title>Class Statistics</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="new.css">
 </head>
 
 <?php
@@ -18,6 +19,8 @@ $instructors = $mysqli->query("select fname, lname from instructor order by lnam
 
 <div class="container">
 <body>
+  <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
+
 
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 		<div class="form-group">

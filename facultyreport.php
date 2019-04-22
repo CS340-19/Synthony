@@ -2,6 +2,7 @@
 <head>
     <title>Faculty Portal</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="new.css">
 </head>
 
 <?php
@@ -14,7 +15,9 @@ if ($mysqli->connect_errno) {
 ?>
 
 <div class="container">
-<body>
+<body
+<div id="nav"><a href="http://34.73.123.138/">Home</a></div>
+
 
 <h2>Please enter your instructor ID</h2>
 

@@ -2,6 +2,7 @@
 <head>
     <title>Class Evaluation: <?php echo $_POST["class_num"];?> </title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="new.css">
 </head>
 
 <?php
@@ -19,6 +20,7 @@ $_SESSION["class_num"]=$_POST["class_num"];
 
 <div class="container">
 <body>
+  <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
 
 <?php
 $classnum = substr($_POST["class_num"], 0, 4);
