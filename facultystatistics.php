@@ -95,15 +95,17 @@ if ($questions){
                     echo '<h3>' . $totcount . ' responses total. Breakdown: </h3>';
 
                     $options = explode(',', $row["options"]);
-										//breakdown by each option
-										foreach ($options as $option){
-											echo $option . ': ';
-											$count = 0;
-											foreach ($response_array as $response){
-												if ($option == $response) {$count++;}
-											}
-											echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
-											echo '<br>';
+					//breakdown by each option
+					foreach ($options as $option){
+						echo $option . ': ';
+						$count = 0;
+						foreach ($response_array as $response){
+							if ($option == $response) {$count++;}
+						}
+						echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
+						echo '<br>';
+
+					}
 
                     echo '<br>';
                     break;
@@ -118,7 +120,7 @@ if ($questions){
                         echo $i . ': ';
                         $count=0;
                         foreach ($response_array as $response){
-														if ($i == $response) {
+							if ($i == $response) {
                                 $count++;
                                 array_push($median_array, $i);
                             }
@@ -174,9 +176,9 @@ if ($questions){
 <a href="facultyreport.php"><button type="button" class="btn btn-primary">Back</button></a>
 <br><br><br>
 
-    <!-- <body>
-  <div id="piechart" style="width: 900px; height: 500px;"></div>
-    </body> -->
+    <body>
+	  <div id="piechart" style="width: 900px; height: 500px;"></div>
+    </body>
 </body>
 </div>
 
