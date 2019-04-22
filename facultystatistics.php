@@ -107,10 +107,10 @@ if ($questions){
 											echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
 											echo '<br>';
 
-											echo '<script type="text/javascript">',
-												     `'drawChart();',
-												     '</script>`;
-											}
+											// echo '<script type="text/javascript">',
+											// 	     `'drawChart();',
+											// 	     '</script>`;
+											// }
 
                     echo '<br>';
                     break;
