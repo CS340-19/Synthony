@@ -13,10 +13,9 @@ if ($mysqli->connect_errno) {
 	echo "Please try again.";
 }
 ?>
-
-<div class="container">
-<body
 <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
+<div class="container">
+<body>
 
 
 <h2>Please enter your instructor ID</h2>

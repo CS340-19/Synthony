@@ -16,10 +16,9 @@ if ($mysqli->connect_errno) {
 $instructors = $mysqli->query("select fname, lname from instructor order by lname;");
 
 ?>
-
+<div id="nav"><a href="http://34.73.123.138/">Home</a></div>
 <div class="container">
 <body>
-  <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
 
 
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
