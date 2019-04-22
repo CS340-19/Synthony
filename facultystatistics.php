@@ -6,11 +6,9 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
-	// var test = <?php echo $count?>;
-
 	var data = google.visualization.arrayToDataTable([
 		['Faculty Stats SummaryTask', 'Hours per Day'],
-		['Work',     test],
+		['Work',     11],
 		['Eat',      2],
 		['Commute',  2],
 		['Watch TV', 2],
@@ -106,7 +104,6 @@ if ($questions){
 											}
 											echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
 											echo '<br>';
-
 
                     echo '<br>';
                     break;
