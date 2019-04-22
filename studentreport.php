@@ -16,7 +16,7 @@ if ($mysqli->connect_errno) {
 $instructors = $mysqli->query("select fname, lname from instructor order by lname;");
 
 ?>
-<div id="nav"><a href="http://34.73.123.138/">Home</a></div>
+<div id="nav"><a href="http://34.73.123.138/"><button type="button" class="btn btn-default" >Home</button></a></div>
 <div class="container">
 <body>
 

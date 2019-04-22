@@ -4,10 +4,10 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" href="new.css">
 </head>
+<div id="nav"><a href="http://34.73.123.138/"><button type="button" class="btn btn-default" >Home</button></a></div>
 
 <div class="container">
 <body>
-  <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
 
 
 <?php

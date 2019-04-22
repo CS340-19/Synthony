@@ -18,9 +18,9 @@ $_SESSION["class_num"]=$_POST["class_num"];
 <h2>Class Evaluation for <?php echo $_POST["class_num"];?> </h2>
 <br><br>
 
+<div id="nav"><a href="http://34.73.123.138/"><button type="button" class="btn btn-default" >Home</button></a></div>
 <div class="container">
 <body>
-  <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
 
 <?php
 $classnum = substr($_POST["class_num"], 0, 4);

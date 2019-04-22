@@ -13,7 +13,7 @@ if ($mysqli->connect_errno) {
 	echo "Please try again.";
 }
 ?>
-<div id="nav"><a href="http://34.73.123.138/">Home</a></div>
+<div id="nav"><a href="http://34.73.123.138/"><button type="button" class="btn btn-default" >Home</button></a></div>
 <div class="container">
 <body>
 
