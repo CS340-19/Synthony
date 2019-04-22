@@ -110,7 +110,6 @@ if ($questions){
 											echo '<script type="text/javascript">',
 												     `'drawChart();',
 												     '</script>`;
-
 											}
 
                     echo '<br>';
