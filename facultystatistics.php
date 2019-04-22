@@ -106,7 +106,7 @@ if ($questions){
 											}
 											echo $count . ' responses. (' . ($count / $totcount)*100 . '%)';
 											echo '<br>';
-										
+
 
                     echo '<br>';
                     break;
@@ -177,9 +177,9 @@ if ($questions){
 <a href="facultyreport.php"><button type="button" class="btn btn-primary">Back</button></a>
 <br><br><br>
 
-    <body>
-	  <div id="piechart" style="width: 900px; height: 500px;"></div>
-    </body>
+    <!-- <body>
+  <div id="piechart" style="width: 900px; height: 500px;"></div>
+    </body> -->
 </body>
 </div>
 
