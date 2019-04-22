@@ -8,7 +8,7 @@
 
 <body>
 <div id="nav"><a href="http://34.73.123.138/">Home</a></div>
-<div class="container">
+<div class="container container1">
 	<h1>Welcome! Please click a button to continue:</h1>
 	<a href="evaluation.php"><button type="button" class="btn btn-primary">Take Evaluation</button></a>
 	<a href="report.php"><button type="button" class="btn btn-primary">Generate Report</button></a>
