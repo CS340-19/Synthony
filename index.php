@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<div id="nav"></div>
+<div id="nav"><a href="http://34.73.123.138/">Home</a></div>
 <div class="container">
 	<h1>Welcome! Please click a button to continue:</h1>
 	<a href="evaluation.php"><button type="button" class="btn btn-primary">Take Evaluation</button></a>

@@ -1,11 +1,13 @@
 body {
   background-color: #F0EDE3;
+  width: 80%;
 }
 
 #nav {
   background-color: #FF8200;
   color: #ffffff;
   width: 100%;
-  height: 100px;
-
+  height: 80px;
+  padding: 10px;
+  margin: auto;
 }
