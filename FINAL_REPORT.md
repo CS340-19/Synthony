@@ -37,6 +37,12 @@ The website allows users to submit evaluations of their classes and dynamically 
 
 The next steps to the project would have been to implement the graphs and to further stylize the various PHP/HTML pages. While the current styles work, some pages could use more styling.
 
+Entity-Relationship Model:
+![alt text](https://raw.githubusercontent.com/CS340-19/Synthony/master/er_model.jpg)
+
+Relational Model:
+![alt text](https://raw.githubusercontent.com/CS340-19/Synthony/master/relational_model.jpg)
+
 ### **Team** <br />
 Everyone contributed to the project in the areas that they were the strongest in. While Luke was certainly the team leader in code written and assigning the team tasks, everyone else made important contributions. Team member roles switched when the project changed, and they are outlined below.
 
