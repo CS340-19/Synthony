@@ -2,6 +2,7 @@
 #### Course evaluation made accessible
 #### Project members: Brandon Kidd, Todd Allen, Luke Parker, David Kennard
 #### Created by the Synthony team with love <3
+#### Server IP: http://34.73.123.138/  (note: we ran out of credits on Google Cloud so we can no longer run the web server)
 
 ### **Introduction** <br />
 Project Synthony started as a wavetable synthesizer program for newcomers in the music creation field. Our team began work on the project in February, which started with forking the iPlug2 framework as a foundation for our wavetable synthesizer. As the weeks went by, our team analyzed the iPlug2 framework, attempting to understand its many files and functions.  As the project was written in C++, our team felt comfortable with our programming expertise as we trekked through 100k+ lines of code. <br />
