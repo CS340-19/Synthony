@@ -71,13 +71,11 @@ In addition to the project, the presentation was a massive success, and selling 
   * The transition in our project went smoothly and the new idea was fleshed out in to PHP code pretty quickly.
   * Everyone on the team was able to use their strengths to help the most on the project.
   * The team got along really well and had no tense moments. 
-<br />
  
 #### What didn’t go well?<br />
   * Our first project idea didn’t go as planned due to the depth of knowledge required to work with the iPlug2 framework.
   * Trying to integrate the pie charts from JavaScript into php proved to be troublesome in the end, and we were only able to show an example graph on the instructor’s evaluation results page. 
   * The page scraper was only half conceptualized before we realized that it simply wouldn’t work, and it would really sell the product to high schools.  Perhaps implement CSV support?
-<br />
 
 #### Project Management<br />
 Our team worked quickly and swiftly after the project change.  All team members assumed their roles based on their skillset, and the lack of time didn’t stop us from creating a high quality product in a niche category.  
