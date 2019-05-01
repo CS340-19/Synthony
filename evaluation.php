@@ -2,6 +2,7 @@
 <head>
 	<title>Evaluation Start</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="new.css">
 </head>
 
 
@@ -13,9 +14,10 @@ if ($mysqli->connect_errno) {
 	echo "Please try again.";
 }
 ?>
-
+<div id="nav"><a href="http://34.73.123.138/"><button type="button" class="btn btn-default" >Home</button></a></div>
 <div class="container">
 <body>
+
 
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 		<div class="form-group">
@@ -36,8 +38,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	echo $_SESSION["studentID"];
 	echo "<h2>Select a class to evaluate. (You can only evaluate classes that you have not yet reviewed!)</h2>";
 
-	$courses = $mysqli->query("select * 
-								from class c, student s, takes 
+	$courses = $mysqli->query("select *
+								from class c, student s, takes
 								where s.studentid='$studentID' and s.studentid=takes.studentid and takes.class_num=c.class_num
 								and s.studentid not in (select studentid
 														from evaluation
@@ -63,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			echo '<button type="submit" class="btn btn-primary">Submit</button>';
 			echo '</form>';
 		}
-		
+
 	} else {echo 'Error retrieving courses';}
 
 
